@@ -46,7 +46,7 @@ const Todo = () => {
   }, [todoList]);
 
   return (
-    <div className="w-[90%] min-h-[80%] bg-black/50 backdrop:blur-lg flex flex-col p-7 rounded-xl md:w-[650px] border-2 border-white">
+    <div className="w-[95%] min-h-[80vh] bg-black/50 backdrop:blur-lg flex flex-col p-7 rounded-xl md:w-[650px] border-2 border-white">
 
       <div className="flex items-center mt-7 gap-2">
         <img src={todo_icon} alt="image" className="w-8 bg-white rounded-sm" />
@@ -60,9 +60,10 @@ const Todo = () => {
 
       <div className="w-full flex flex-col">
         {
-          todoList.map((item, index) => {
-            return <TodoItems key={index} text={item.text} id={item.id} isComplete={item.isComplete} deleteTodo={deleteTodo} toggle={toggle} />
-          }).reverse()
+          todoList.length === 0 ? <div className="text-lg m-auto">No tasks available</div>
+            : todoList.map((item, index) => {
+              return <TodoItems key={index} text={item.text} id={item.id} isComplete={item.isComplete} deleteTodo={deleteTodo} toggle={toggle} />
+            }).reverse()
         }
       </div>
 
