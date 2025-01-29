@@ -46,23 +46,23 @@ const Todo = () => {
   }, [todoList]);
 
   return (
-    <div className="bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl">
+    <div className="w-[90%] min-h-[80%] bg-black/50 backdrop:blur-lg flex flex-col p-7 rounded-xl md:w-[650px] border-2 border-white">
 
       <div className="flex items-center mt-7 gap-2">
-        <img src={todo_icon} alt="image" className="w-8" />
+        <img src={todo_icon} alt="image" className="w-8 bg-white rounded-sm" />
         <h1 className="text-3xl font-semibold">To Do List</h1>
       </div>
 
       <div className="flex items-center my-7 bg-gray-800 rounded-xl">
-        <input ref={inputRef} type="text" placeholder="Add your task" className="bg-transparent text-white border-0 outline-none flex-1 h-14 pl-6 pr-2 placeholder:text-slate-100" />
+        <input ref={inputRef} type="text" placeholder="Add your task" className="w-[50%] bg-transparent text-white border-0 outline-none flex-1 h-14 pl-6 pr-2 placeholder:text-slate-100" />
         <button onClick={add} type="button" className="border-none rounded-lg bg-green-500 text-white font-bold mr-2 w-24 h-8 cursor-pointer">Add +</button>
       </div>
 
-      <div>
+      <div className="w-full flex flex-col">
         {
           todoList.map((item, index) => {
             return <TodoItems key={index} text={item.text} id={item.id} isComplete={item.isComplete} deleteTodo={deleteTodo} toggle={toggle} />
-          })
+          }).reverse()
         }
       </div>
 
