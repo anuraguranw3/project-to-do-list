@@ -55,6 +55,41 @@ This is an advanced **To-Do App** built with React and Redux, featuring:
 
 ---
 
+## 📝 How to Use the App
+
+### **1. Login**
+- Open the app in your browser.
+- Enter your login credentials (if required) and click the "Login" button to access the To-Do list.
+
+### **2. Add a Task**
+- Enter a task in the input field at the top of the To-Do list.
+- Press the "Add +" button or hit the `Enter` key to add the task to the list.
+
+### **3. Mark a Task as Complete**
+- Click on a task to toggle its completion status.
+- Completed tasks will be visually updated (e.g., strikethrough text).
+
+### **4. Delete a Task**
+- Click the delete icon next to a task to remove it from the list.
+
+### **5. Assign Priority**
+- Use the dropdown menu next to the input field to assign a priority (High, Medium, Low) to a task before adding it.
+- Tasks are visually differentiated by priority using colored borders.
+
+### **6. Search for Weather**
+- Enter a city name in the weather search input field.
+- Click the "Search" button to fetch and display the current weather for the entered city.
+- Weather details include:
+  - Temperature (in Celsius).
+  - Weather condition (e.g., Sunny, Cloudy).
+  - Weather icon for better visualization.
+
+### **7. Logout**
+- Click the "Logout" button in the top-right corner to log out of the app.
+- The To-Do list will no longer be accessible until you log in again.
+
+---
+
 ## 📸 Screenshots
 ### **1. Login Screen**
 ![Login Screen](src/assets/screenshots/login-page.png)
