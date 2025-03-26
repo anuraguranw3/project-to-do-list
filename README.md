@@ -57,24 +57,24 @@ This is an advanced **To-Do App** built with React and Redux, featuring:
 
 ## 📸 Screenshots
 ### **1. Login Screen**
-![Login Screen](path/to/login-screen.png)
+![Login Screen](src/assets/screenshots/login.png)
 
 ### **2. To-Do List with Weather Integration**
-![To-Do List with Weather](path/to/todo-weather.png)
+![To-Do List with Weather](src/assets/screenshots/todo.png)
 
 ### **3. Adding a Task**
-![Adding a Task](path/to/adding-task.png)
+![Adding a Task](src/assets/screenshots/todo.png)
 
 ### **4. Weather Search**
-![Weather Search](path/to/weather-search.png)
+![Weather Search](src/assets//screenshots/weather.png)
 
 ---
 
 ## ⚙️ Setup Instructions
 Follow these steps to set up and run the project locally:
 
-### **1. Clone the Repository**
 ```bash
+### **1. Clone the Repository**
 git clone https://github.com/anuraguranw3/project-to-do-list.git
 cd project-to-do-list
 
