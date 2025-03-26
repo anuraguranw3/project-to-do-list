@@ -19,3 +19,38 @@ body {
     height: 100%;
     width: 100%;
 }
+
+
+/* ai used to create this scrollbar  */
+/* index.css or global CSS file */
+
+/* Apply global styles to the scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Style the scrollbar track (background area) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Gray theme for the track */
+    border-radius: 10px;
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background-color: black; /* Equivalent to bg-green-500 */
+    border-radius: 10px;
+    border: 3px solid rgb(250, 0, 0); /* Optional: small border around the thumb */
+  }
+  
+  /* Hover effect for the thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: black; /* Darker green (tailwind bg-green-400) when hovered */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: black rgb(165, 165, 165); /* Green thumb and gray track */
+  }
+  
