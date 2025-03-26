@@ -57,10 +57,10 @@ This is an advanced **To-Do App** built with React and Redux, featuring:
 
 ## 📸 Screenshots
 ### **1. Login Screen**
-![Login Screen](src/assets/screenshots/login.png)
+![Login Screen](src/assets/screenshots/login-page.png)
 
 ### **2. To-Do List with Weather Integration**
-![To-Do List with Weather](src/assets/screenshots/todo.png)
+![To-Do List with Weather](src/assets/screenshots/todo-list-with-weather-app.png)
 
 ### **3. Adding a Task**
 ![Adding a Task](src/assets/screenshots/todo.png)
