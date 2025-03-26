@@ -75,13 +75,17 @@ Follow these steps to set up and run the project locally:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/anuraguranw3/project-to-do-list.git
+cd project-to-do-list
+
+---
 
 ### **2. Install Dependencies**
 Run the following command to install all the required dependencies:
 ```bash
 npm install
+
+---
 
 ### **3. Add Your WeatherAPI Key**
 - Go to [WeatherAPI](https://www.weatherapi.com/) and sign up for a free account.
@@ -89,10 +93,14 @@ npm install
   ```javascript
   const KEY = "your_weatherapi_key"; // Replace with your actual API key
 
+---
+
   ### **4. Start the Development Server**
 Run the following command to start the development server:
 ```bash
 npm run dev
+
+---
 
 ### **5. Open the App**
 - Open your browser and navigate to the following URL:
